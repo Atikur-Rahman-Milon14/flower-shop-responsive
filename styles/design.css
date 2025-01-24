@@ -74,14 +74,13 @@
 
 /* !section Three  */
 
-
 .flowers{
   display: flex;
   margin: 10px;
   justify-content: center;
   gap: 15px;
-  width: 100%;
-  height: 100%;
+  width: 1440px;
+  height: 605px;
   margin: 0px auto;
   /* border: 1px solid green; */
 }
@@ -105,9 +104,11 @@
   background-color: rgba(71, 125, 17, 0.15);
 }
 .img-size{
-  justify-content: center;
+  justify-content: center; 
 }
-
+.img-height{
+  height: 100%;
+}
 
 
 
@@ -150,9 +151,14 @@
   .flowers{
     flex-direction: column;
     margin-top: 15px;
+    width: 100%;
+    height: 100%;
     
   }
   .flower-box{
     width: 75%;
+  }
+  .fast-img-wth{
+    width: 100%;
   }
 }
